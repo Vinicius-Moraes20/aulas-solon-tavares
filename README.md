@@ -1,2 +1,2 @@
-# aulas-solon-tavares
- Roteiros de slides criados para aulas de eletrônica na escola Solon Tavares
+# Curso-técnico
+ Repositório dedicado a postar os exercicos propostos do curso técnico de TI, da escola Solon Tavares
