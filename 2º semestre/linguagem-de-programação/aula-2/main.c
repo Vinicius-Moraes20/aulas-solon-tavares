@@ -3,7 +3,8 @@
 
 int main() {
     unsigned int qntSoftware;
-    float salFixo = 1250.0, bonus;
+    float bonus;
+    const float salFixo = 1250.0;
 
     printf("Digite a quantidade de softwares feitos pelo programador: ");
     scanf("%d", &qntSoftware);
