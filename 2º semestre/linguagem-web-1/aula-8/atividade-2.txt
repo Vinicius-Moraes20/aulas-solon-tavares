@@ -1,0 +1,10 @@
+Color: Altera a cor do texto presente na box
+Text-align: Altera o alinhamento do texto na box
+Font-family: Definição de fonte ou familia de fonte da box
+Font-size: Altera o tamanho da fonte da box
+Padding: Altera o tamanho do espaçamento interno da box com o conteúdo
+Margin: Altera o espaçamento externo da box
+background-color: Definição da cor de fundo da box
+Background-image: Definição de uma imagem ou degrade da box
+Background-repeat: Define se a imagem definida irá se repetir por toda extensão da box, ou não.
+background-size: Define o tamanho da imagem de fundo da box
