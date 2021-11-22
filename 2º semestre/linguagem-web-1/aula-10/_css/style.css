@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 1.4em;
+    color: rgb(187, 16, 16);
+    font-weight: 900;
+    
+}
+
+p {
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+img {
+    width: 600px;
+}
+
+img.ImagemJogos {
+    width: 200px;
+}
+
+figure > a {
+    text-decoration: none;
+    color: rgb(44, 43, 43);
+}
