@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+
+    <link rel="shortcut icon" href="_img/favcon.png" type="image/x-icon">
+    <link rel="stylesheet" href="_css/config.css">
+    <link rel="stylesheet" href="_css/image.css">
+
+    <style>
+        main {
+            max-width: 960px;
+            padding: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <div id="headerEsquerda">
+            <a href="index.html"><img src="_img/logo.png" alt="" id="logoHeader"></a>
+        </div>
+        <div id="headerDireita">
+            <ul id="mainMenu">
+                <li><a href="pedidos.html">Faça seu pedido</a></li>
+                <li><a href="contato.html">Entre em contato conosco</a></li>
+                <li><a href="cardapio.html">Cardápio</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <form action="submit">
+            <fieldset>
+                <h2>Informações Pessoais</h2>
+                Nome: <input type="text" placeholder="Primeiro Nome" maxlength="15">
+                <input type="text" placeholder="Ultimo Nome" maxlength="15"><br><br>
+                Contato: <input type="email" name="email" id="email" maxlength="50" placeholder="Email">
+                <input type="tel" name="telefone" id="telefone" maxlength="11" placeholder="Telefone"><br>
+            </fieldset>
+            <fieldset>
+                <h2>O que você deseja?</h2>
+                <input type="radio" name="selecao" id="opcao">Livro <br>
+                <input type="radio" name="selecao" id="opcao">Adição ao Cardápio <br>
+                <input type="radio" name="selecao" id="opcao">Outro <br> <br>
+                <textarea name="comentarios" id="" cols="30" rows="5" placeholder="Comentario"></textarea> <input type="button" value="Enviar"><br><br>
+            </fieldset>
+            
+        </form>
+    </main>
+</body>
+</html>
